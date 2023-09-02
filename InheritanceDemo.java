@@ -8,7 +8,7 @@ public class InheritanceDemo {
 		Scanner scan = new Scanner(System.in);
 		
 		bankAc.calculateInterest();
-		
+		System.out.println("It is written in github");
 		System.out.println(""Choose your option, 1-Savings Account 2-FD 3-Loan Account ");
 		System.out.println("Interest Calculator. Choose your Bank Account");
 		int i = scan.nextInt();
